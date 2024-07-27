@@ -1,0 +1,22 @@
+.main {
+  width: 1500px;
+  height: 3500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Math {
+  box-shadow: 0px 0px 10px 2px orange;
+  border-radius: 10px;
+  width: 700px;
+  height: 200px;
+  margin: 15px;
+  padding: 10px;
+  transition: 1s;
+}
+
+.Math:hover {
+  transform: scale(1.2);
+}
